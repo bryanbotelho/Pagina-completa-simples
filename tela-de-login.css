@@ -1,6 +1,6 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-image: linear-gradient(70deg, cyan, rgb(193, 206, 9));
+    background-image: linear-gradient(50deg, cyan, rgb(238, 255, 0));
 }
 
 h1 {
@@ -16,7 +16,7 @@ div {
     left: 50%;
     transform: translate(-50%, -50%);
     padding: 100px;
-    border-radius: 15px;
+    border-radius: 30px;
     color: white;
 }
 
@@ -48,14 +48,15 @@ button.redfsen{
     position: absolute;
     background-color: transparent;
     font-size: 13px;
-    top: 68%;
-    left: 40%;
+    top: 85%;
+    left: 13%;
     transform: translate(-50%, -50%);
     padding: 20px, 20px;
     height: 6%;
     width:9%;
     white-space: nowrap;
     border-radius: 15px;
+    text-decoration: underline;
 
 }
 
@@ -63,13 +64,14 @@ button.cadclie{
     position: absolute;
     background-color: transparent;
     font-size: 13px;
-    top: 68%;
-    left: 60%;
+    top: 85%;
+    left: 72%;
     transform: translate(-50%, -50%);
     padding: 20px, 20px;
     height: 6%;
     width:9%;
     white-space: nowrap;
     border-radius: 15px;
+    text-decoration: underline;
 }
 

@@ -3,9 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cadastro-cliente.css">
     <title>Cadastro de Cliente</title>
 </head>
 <body>
+    <div>
+    <h1>Seja Bem vindo!<br> Por favor, preencha os dados.</h1><br><br>
+        <input type="text" required="required" placeholder="Nome Completo"><br><br>
+        <input type="email" required="required" placeholder="E-mail"><br><br>
+        <input type="text" required="required" placeholder="CPF"><br><br>
+        <input type="password" required="required" placeholder="Senha"><br><br><br>
+        <div1>
+            <button class="btcad" type="button" onclick="cadastro()">Cadastrar</button>
+            <button class="ret"type="button" onclick="ret()">Voltar </button>
+        </div1>
+        
+    </div>
+    <script>
+        function cadastro(){
+            alert("Cadastrado com Sucesso! Retornando ao Login.");
+            window.location ="tela-de-login.html";
+        }
+        function ret(){
+            window.location ="tela-de-login.html"
+        }
+    </script>
     
 </body>
 </html>
