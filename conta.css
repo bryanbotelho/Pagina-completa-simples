@@ -7,7 +7,7 @@
     font-family: 'Outfit', sans-serif;
 }
 body{
-    height: 100vh;
+    height: 89vh;
     background-image: linear-gradient(70deg, rgb(255, 255, 255), cyan);
 }
 nav.menu-lateral{
@@ -54,26 +54,6 @@ ul li.item-menu a icon > i{
 
 }
 
-.search-box{
-    position: absolute;
-    margin-left: 40%;
-    margin-top: 2%;
-    border-radius: 20px;
-    padding: 12px 10px;
-    background-color: white;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    cursor: pointer;
-}
-.search-text{
-    background: none;
-    border: none;
-    outline: 0;
-    padding-left: 1px;
-    
-}
-
 ::-webkit-input-placeholder{
     font-size: 13px;
     font-family:Arial, Helvetica, sans-serif;
@@ -81,12 +61,6 @@ ul li.item-menu a icon > i{
 
 }
 
-#imglog{
-    position: absolute;
-    left: 80%;
-    border: none;
-    
-}
 button{
     background-color: transparent;
     color: white;
@@ -98,4 +72,70 @@ button{
     padding: 6px  10px ;
     
   
+}
+
+div.bkgcol{
+    background-color: #202020;
+    height: 80%;
+    width: 50%;
+    margin-left: 30%;
+    margin-top: 7%;
+    color: white;
+}
+.iconepess{
+    font-size: 150px;
+    margin-left:40%;
+    margin-top: 4%;
+}
+input.imgclie{
+    font-size: 14px;
+    text-align: center;
+    margin-left: 30%;
+}
+
+.name{
+    background-color: white; 
+    width: 50%;
+    height: 35px;
+    font-size: 17px;
+    margin-left:25%;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+}
+.email{
+    background-color: white; 
+    width: 50%;
+    height: 35px;
+    font-size: 17px;
+    margin-left:25%;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+}
+.data{
+    background-color: white; 
+    width: 50%;
+    height: 35px;
+    font-size: 17px;
+    margin-left:25%;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+}
+.tel{
+    background-color: white; 
+    width: 50%;
+    height: 35px;
+    font-size: 17px;
+    margin-left:25%;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+}
+.save{
+   background-color: white;
+   color: black;
+   margin-left:40%;
+   border-radius: 10px;
 }

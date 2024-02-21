@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="pedido.css"/>
+    <title>Pedidos</title>
+</head>
+  
+<body>
+  <nav class="menu-lateral">
+      <div class="btn-expandir">
+      </div>
+
+      <ul>
+        <li class="item-menu">
+          <a href="#">
+            <span class="icon"><i class="bi bi-house-door"></i></span>
+            <button class="txt-link" type="button" onclick="home()">Home</button>
+          </a>
+        </li>
+        <li class="item-menu">
+          <a href="#">
+            <span class="icon"><i class="bi bi-basket3"></i></span>
+            <button class="txt-link" type="button" onclick="pedidos()">Pedido</button>
+          </a>
+        </li>
+        <li class="item-menu">
+          <a href="#">
+            <span class="icon"><i class="bi bi-gear-fill" onclick="conf" ></i></span>
+            <button class="txt-link" type="button" onclick="config()">Configurações</button>
+          </a>
+        </li>
+        <li class="item-menu">
+          <a href="#">
+            <span class="icon"><i class="bi bi-person-circle"></i></span>
+            <button class="txt-link" type="button" onclick="conta()">Conta</button>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+ <div class="search-box">
+    <input type="text"class="search-text" placeholder="Pesquisar...">
+    <a class="search-btn">
+      <span class="icon"><i class="bi bi-search"></i> </span>
+    </a>
+ </div>
+
+ <script>
+  function home(){
+    window.location = "pagina-inicial.html";
+  }
+ </script>
+ <script>
+  function pedidos(){
+    window.location = "pedido.html";
+  }
+ </script>
+ <script>
+  function config(){
+    window.location = "config.html";
+  }
+ </script>
+ <script>
+  function conta(){
+    window.location = "conta.html";
+  }
+ </script>
+
+
+<img src="/Image/logo-venda-online.jpg" id="imglog">
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Upload de Foto e Mudança de Ícone</title>
+<script>
+  function exibirFoto(input) {
+    if (input.files && input.files[0]) {
+      var reader = new FileReader();
+
+      reader.onload = function(e) {
+        document.getElementById('foto-preview').src = e.target.result;
+      }
+
+      reader.readAsDataURL(input.files[0]);
+    }
+  }
+</script>
+</head>
+<body>
+
+<h2>Upload de Foto e Mudança de Ícone</h2>
+
+<input type="file" onchange="exibirFoto(this)">
+<br><br>
+
+<!-- A imagem inicial é um ícone padrão -->
+<img id="foto-preview" src="icone_padrao.jpg" alt="Foto" width="200" height="200">
+
+</body>
+</html>
