@@ -61,12 +61,6 @@ ul li.item-menu a icon > i{
 
 }
 
-#imglog{
-    position: absolute;
-    left: 80%;
-    border: none;
-    
-}
 button{
     background-color: transparent;
     color: white;
@@ -76,6 +70,26 @@ button{
     font-size: 17px;
     cursor: pointer;
     padding: 6px  10px ;
-    
-  
 }
+
+.bkgcol{
+    background-color:#202020;
+    margin-top: 20%;
+    height: 40%;
+    width: 30%;
+    margin-left: 40%;
+    border-radius: 20px;
+}
+.saircont{
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    width: 70%;
+    height: 10%;
+    margin-left: 60px;
+    margin-top: 30%;
+    border-radius: 20px;
+    display: inline-block;
+    text-align: center; 
+}
+

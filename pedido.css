@@ -55,7 +55,7 @@ ul li.item-menu a icon > i{
 }
 
 .search-box{
-    position: absolute;
+    width: 20%;
     margin-left: 40%;
     margin-top: 2%;
     border-radius: 20px;
@@ -82,9 +82,9 @@ ul li.item-menu a icon > i{
 }
 
 #imglog{
-    position: absolute;
-    left: 80%;
+    margin-left: 81%;
     border: none;
+    transform: translate(0.1%, -1060%);
     
 }
 button{
@@ -96,6 +96,23 @@ button{
     font-size: 17px;
     cursor: pointer;
     padding: 6px  10px ;
-    
-  
 }
+
+#imgcam{
+    width: 10%;
+    height: 20%;
+    margin-left: 2%;
+    margin-top: 2%;
+}
+.bkgcol{
+    background-color:#ffffff;
+    margin-top: 5%;
+    height: 70%;
+    width: 86%;
+    margin-left: 10%;
+    border-radius: 20px;
+    font-size: 20px;
+    
+}
+
+   
